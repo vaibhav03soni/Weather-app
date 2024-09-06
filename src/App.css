@@ -1,0 +1,94 @@
+
+.app {
+  text-align: center;
+  background-image: url('https://wallpapertag.com/wallpaper/full/a/1/0/851047-best-weather-desktop-background-1989x1080-xiaomi.jpg');
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+h1{
+  color: #fff;
+}
+
+/* Input styling */
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 400px;
+}
+
+/* Weather info section */
+.weather-info {
+  padding: 20px;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/428/651/original/weather-icon-set-black-vector.jpg');
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 400px;
+  text-align: left;
+}
+
+.weather-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.weather-info img {
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+}
+
+/* Error message */
+.error {
+  color: red;
+  margin-bottom: 20px;
+}
+
+/* Loading message */
+p {
+  font-size: 16px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .app {
+    padding: 10px;
+  }
+
+  .weather-info {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .weather-info h2 {
+    font-size: 20px;
+  }
+
+  .weather-info p {
+    font-size: 16px;
+  }
+
+  .weather-info img {
+    width: 60px;
+    height: 60px;
+  }
+}
